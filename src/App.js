@@ -1,10 +1,10 @@
 import "./App.css";
-import { DeleteButton } from "./buttons";
+import { SendButton } from "./buttons/send-button/SendButton";
 
 function App() {
   return (
     <>
-      <DeleteButton />
+      <SendButton />
     </>
   );
 }
